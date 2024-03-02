@@ -1,24 +1,27 @@
 @import url('https://fonts.google.com/specimen/Inter');
 body{
-    background: #000;
+    background: hsl(0, 0%, 8%);
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 }
 .main {
     background: hsl(0, 0%, 12%);
     font-family: "Inter", sans-serif;
-    align-items: center;
-    justify-content: center;
-    width: 400px; /* Set your desired fixed width */
-    height: auto; /* Auto will work for */
-    margin: 0 auto; /* This will center the div horizontally */
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 400px; 
+    height: auto; 
+    /* margin: 0 auto;  */
     padding: 20px;
     margin-top: 20px;
     border-radius: 10px;
 }
 .profile{
-    text-align: center; /* Center the content inside the profile div */
-    border-radius: 10px; /* Add border-radius for a rounded appearance if needed */
+    text-align: center;
+    border-radius: 10px; 
     color:  hsl(0, 0%, 100%);
-
 }
 .info .name{
     font-weight: 700;
